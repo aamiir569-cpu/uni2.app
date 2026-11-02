@@ -1,0 +1,19 @@
+.navbar {
+  background: #4338ca;
+  padding: 16px 40px;
+  display: flex;
+  gap: 32px;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.05rem;
+  padding-bottom: 2px;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.navbar a:hover {
+  border-bottom-color: #fff;
+}

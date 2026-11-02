@@ -1,0 +1,13 @@
+.card button {
+  background-color: #3a3f9e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 14px;
+  margin: 8px 4px 0;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background-color: #5158c9;
+}
