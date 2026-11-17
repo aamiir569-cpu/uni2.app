@@ -7,6 +7,7 @@ import Footer from "./components/footer";
 import emirImg from "./assets/emir.jpg";
 import chouligaImg from "./assets/chouliga.png";
 import aliImg from "./assets/3li.png";
+import StudentForm from "./components/StudentForm"; 
 
 function App() {
   const [etudiants, setEtudiants] = useState([
@@ -52,7 +53,7 @@ function App() {
 
   function ajouterEtudiant() {
     const nouvelEtudiant = {
-      id: Date.now(),
+      id: 2,
       nom: "chouliga",
       prenom: "chaw9i",
       age: 33,
