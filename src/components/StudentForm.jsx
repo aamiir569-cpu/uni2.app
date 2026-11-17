@@ -1,5 +1,5 @@
 import { useState } from "react";
-
+import "./StudentForm.css";
 function StudentForm() {
   const [form, setForm] = useState({
     nom: "",
