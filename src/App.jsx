@@ -87,6 +87,9 @@ function App() {
     <div className="App">
       <Header />
       <Navbar />
+       <div>
+      <StudentForm />
+    </div>
 
       <main>
         <h2 className="titre-page">Liste des étudiants</h2>
